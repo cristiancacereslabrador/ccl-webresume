@@ -24,8 +24,6 @@ $sender = array(
 	'email' => 'donotreply@mywebsite.com',
 	'name' => 'Company Name'
 );
-
-
 // reCaptcha Secret Key - Add this only if you use reCaptcha with your Contact Forms
 $recaptcha_secret = '';
 
@@ -34,11 +32,7 @@ $recaptcha_secret = '';
 $mail = new PHPMailer();
 
 // If you intend you use SMTP, add your SMTP Code after this Line
-
-
 // End of SMTP
-
-
 // Form Messages
 $message = array(
 	'success'           => 'Thank you for your message. It has been sent.',
@@ -48,7 +42,6 @@ $message = array(
 	'recaptcha_invalid' => 'Captcha not Validated! Please Try Again.',
 	'recaptcha_error'   => 'Captcha not Submitted! Please Try Again.'
 );
-
 // Form Processor
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
@@ -128,7 +121,6 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			$mail->AddReplyTo( $replyto_e );
 		}
 	}
-
 	foreach( $recipients as $recipient ) {
 		$mail->AddAddress( $recipient['email'] , $recipient['name'] );
 	}
