@@ -4,10 +4,7 @@
 
   <head>
     <!-- Title -->
-    <title>
-      &nbsp;&nbsp;Cristian Vianey Cáceres Labrador - Portfolio Web
-      &nbsp;&nbsp;||
-    </title>
+    <title id="page-title">Cristian Vianey Cáceres Labradorhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh - Portfolio Web</title>
 
     <!-- Required Meta Tags -->
     <meta charset="utf-8" />
@@ -17,7 +14,7 @@
     />
     <meta
       name="description"
-      content="Bootstrap HTML template and UI kit by Erilisdesign"
+      content="PORTFOLIO WEB by Cristian Vianey Cáceres Labrador"
     />
     <link rel="icon" type="image/png" href="/assets/images/logo.png" />
 
@@ -65,49 +62,14 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css" />
-    <!-- INICIO CODIGO TITULO MOVIMIENTO -->
-    <script type="text/JavaScript">
-      var repeat = 1                    // Si ponemos valor 0 sólo se repetirá unavez el movimiento
-      var title = document.title
-      var leng = title.length
-      var start = 1
-      function titlemove()
-      {
-         titl = title.substring(start, leng) + title.substring(0, start)
-         document.title=titl
-         start++
-         if (start==leng+1)
-         {
-            start=0
-            if (repeat==0) return
-         }
-         setTimeout("titlemove()",120)  // 150 es la velocidad de movimiento, se puede ampliar o reducir
-      }
-      if (document.title) titlemove()
-    </script>
-    <!-- FIN CODIGO TITULO MOVIMIENTO -->
   </head>
 
   <body data-spy="scroll" data-target="#navbarCollapse">
-    <!-- Loader
-    <div class="loader bg-dark">
-      <div class="spinner-grow text-primary" role="status">
-        <img src="tu_imagen.png" alt="Cargando..." />
-        <span class="sr-only">Loading...</span>
-      </div>
-    </div> -->
     <!-- Loader -->
     <div class="loader bg-dark">
-      <img
-        src="/assets/images/logo.png"
-        class="spinner-grow"
-        alt="Cargando..."
-      />
-      <!--
       <div class="spinner-grow text-primary" role="status">
-           <span class="sr-only">Loading...</span>
-          </div>
-        -->
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
 
     <!-- Site navigation -->
@@ -165,16 +127,7 @@
           <li class="nav-item">
             <a class="nav-link scrollto" href="#contact">Contact</a>
           </li>
-          <!-- <li class="nav-item">
-                    <button class="switch" id="switch">
-                        <span>
-                            <i class="fa-solid fa-sun"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-moon"></i>
-                        </span>
-                    </button>
-                </li>-->
+        
         </ul>
       </div>
     </nav>
@@ -215,16 +168,7 @@
               development with JavaScript, React JS and web pages with
               WordPress.
             </p>
-            <!-- <a
-              href="#!"
-              class="btn btn-white d-block d-md-inline-block mb-3 mb-md-0"
-              >Download CV</a
-            > -->
-            <!-- <a
-              href="#about-me"
-              class="btn btn-soft-white scrollto ml-md-3 d-block d-md-inline-block"
-              >Learn more</a
-            > -->
+        
           </div>
         </div>
       </div>
@@ -257,22 +201,7 @@
               Figma. And site development with CMS like WordPress and themes
               like Avada.
             </p>
-            <!-- <div class="row m-n4">
-                        <div class="col-6 col-md-4 p-4">
-                            <p class="h1 text-primary mb-2">20+</p>
-                            <p class="h6 mb-0">Years in field</p>
-                        </div>
-
-                        <div class="col-6 col-md-4 p-4">
-                            <p class="h1 text-primary mb-2">30k</p>
-                            <p class="h6 mb-0">Photos taken</p>
-                        </div>
-
-                        <div class="col-6 col-md-4 p-4 d-none d-md-block">
-                            <p class="h1 text-primary mb-2">15</p>
-                            <p class="h6 mb-0">Countries visited</p>
-                        </div>
-                    </div> -->
+        
           </div>
         </div>
       </div>
@@ -443,89 +372,7 @@
       </div>
     </section>
 
-    <!-- Services
-    <section id="services" class="pt-9 pt-xl-12 pb-0">
-        <div class="container position-absolute top-0 bottom-0 left-0 right-0 mr-0 mx-xl-auto zindex-0">
-            <div class="overlay overlay-advanced bg-primary vw-100 left-auto mb-9 mb-xl-12 mr-xl-13"></div>
-        </div>
-        <div class="container">
-            <div class="row mb-8">
-                <div class="col-lg-9 text-white text-center text-lg-left">
-                    <h2 class="mb-4">Services</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-                </div>
-            </div>
-            <div class="row mx-n4 mt-n6">
 
-                <div class="col-md-6 col-lg-4 px-4 pt-6">
-                    <div class="p-7 shadow-light shadow-lift rounded-3x bg-white">
-                        <div class="icon icon-6x text-primary mb-4">
-                            <i class="ti-book"></i>
-                        </div>
-                        <div class="divider bg-primary ml-5"></div>
-                        <h4 class="h6 pl-5">Well Documented</h4>
-                        <p class="pl-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 px-4 pt-6">
-                    <div class="p-7 shadow-light shadow-lift rounded-3x bg-white">
-                        <div class="icon icon-6x text-primary mb-4">
-                            <i class="ti-bolt-alt"></i>
-                        </div>
-                        <div class="divider bg-primary ml-5"></div>
-                        <h4 class="h6 pl-5">Fast & Easy</h4>
-                        <p class="pl-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 px-4 pt-6">
-                    <div class="p-7 shadow-light shadow-lift rounded-3x bg-white">
-                        <div class="icon icon-6x text-primary mb-4">
-                            <i class="ti-ruler-pencil"></i>
-                        </div>
-                        <div class="divider bg-primary ml-5"></div>
-                        <h4 class="h6 pl-5">Fully Customizable</h4>
-                        <p class="pl-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 px-4 pt-6">
-                    <div class="p-7 shadow-light shadow-lift rounded-3x bg-white">
-                        <div class="icon icon-6x text-primary mb-4">
-                            <i class="ti-split-h"></i>
-                        </div>
-                        <div class="divider bg-primary ml-5"></div>
-                        <h4 class="h6 pl-5">Responsive Layout</h4>
-                        <p class="pl-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 px-4 pt-6">
-                    <div class="p-7 shadow-light shadow-lift rounded-3x bg-white">
-                        <div class="icon icon-6x text-primary mb-4">
-                            <i class="ti-ruler-pencil"></i>
-                        </div>
-                        <div class="divider bg-primary ml-5"></div>
-                        <h4 class="h6 pl-5">Fully Customizable</h4>
-                        <p class="pl-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 px-4 pt-6">
-                    <div class="p-7 shadow-light shadow-lift rounded-3x bg-white">
-                        <div class="icon icon-6x text-primary mb-4">
-                            <i class="ti-split-h"></i>
-                        </div>
-                        <div class="divider bg-primary ml-5"></div>
-                        <h4 class="h6 pl-5">Responsive Layout</h4>
-                        <p class="pl-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
 
     Portfolio -->
     <section id="portfolio" class="py-9 py-xl-12">
@@ -648,7 +495,6 @@
 
           <!-- <div class="col-sm-6 col-md-4 pt-6 px-4 masonry-item design" data-featherlight-gallery data-featherlight-filter="a">> -->
           <div class="col-sm-6 col-md-4 pt-6 px-4 masonry-item design">
-            <!-- <a class="card border-0 rounded-3x" href="https://cristiancacereslabrador.github.io/Technical-Documentation-Page" data-title="Tropical beach" data-text="1. Quisque ultrices non velit sit amet consectetur. Cras turpis dolor, facilisis a nibh non, ullamcorper facilisis mauris."> -->
             <a
               class="card border-0 rounded-3x"
               href="https://cristiancacereslabrador.github.io/Technical-Documentation-Page"
@@ -762,71 +608,11 @@
               </div>
             </a>
           </div>
-
-          <!-- <div class="col-sm-6 col-md-4 pt-6 px-4 masonry-item wordpress">
-                    <a class="card border-0 rounded-3x" href="https://www.youtube.com/embed/Gm7FX3WMk3c" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true" data-featherlight-iframe-width="1200" data-featherlight-iframe-height="675">
-                        <div class="card-zoom shadow-light">
-                            <img class="card-img" src="assets/images/portfolio/portfolio-11.jpg" alt="">
-                        </div>
-                        <div class="card-footer p-0 mt-4">
-                            <p class="small text-uppercase mb-1 text-muted">WORDPRESS</p>
-                            <h4 class="h5 text-dark mb-0">Green Dogs Page</h4>
-                        </div>
-                    </a>
-                </div> -->
         </div>
       </div>
     </section>
 
-    <!-- Blog -->
-    <!-- <section id="blog" class="py-9 py-xl-12">
-        <div class="container position-absolute top-0 bottom-0 left-0 right-0 ml-0 mx-xl-auto zindex-0">
-            <div class="overlay overlay-advanced bg-light vw-100 ml-xl-n12"></div>
-        </div>
-        <div class="container">
-            <div class="row mb-8">
-                <div class="col-lg-8 text-center text-lg-left">
-                    <h2 class="mb-4">Latest Blog</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-md-4 col-sm-6 mb-5 mb-md-0">
-                    <div class="card border-0 bg-white shadow-light shadow-lift rounded-3x overflow-hidden">
-                        <img class="card-img-top" src="assets/images/blog/image-blog-6.jpg" alt="">
-                        <div class="card-body p-6">
-                            <small class="text-muted d-block mb-3">March 10, 2020</small>
-                            <h5 class="mb-0"><a href="blog-single.html" class="text-dark">Building an enduring online audience</a></h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-5 mb-md-0">
-                    <div class="card border-0 bg-white shadow-light shadow-lift rounded-3x overflow-hidden">
-                        <img class="card-img-top" src="assets/images/blog/image-blog-1.jpg" alt="">
-                        <div class="card-body p-6">
-                            <small class="text-muted d-block  mb-3">April 24, 2020</small>
-                            <h5 class="mb-0"><a href="blog-single.html" class="text-dark">Building a site for your small business</a></h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="card border-0 bg-white shadow-light shadow-lift rounded-3x overflow-hidden">
-                        <img class="card-img-top" src="assets/images/blog/image-blog-7.jpg" alt="">
-                        <div class="card-body p-6">
-                            <small class="text-muted d-block  mb-3">May 13, 2020</small>
-                            <h5 class="mb-0"><a href="blog-single.html" class="text-dark">A day in the life of a fitness blogger</a></h5>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> 
-
-       Contact -->
+    
     <section id="contact" class="pt-8 pt-xl-10 pb-9 pb-xl-10">
       <div class="container">
         <div class="row mb-8">
@@ -884,7 +670,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-7 offset-lg-1">
+         
             <div class="contact-form">
               <form
                 class="mb-0"
@@ -976,75 +762,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="position-relative py-9 py-lg-12 bg-dark text-gray-400">
-      <div class="container px-xl-10">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <img
-              src="assets/images/logo-white.png"
-              alt=""
-              class="img-fluid mb-5"
-            />
-            <p class="mb-5">Social networks and other forms of contact</p>
-            <ul class="list-inline mb-8">
-              <!-- <li class="list-inline-item mx-0">
-                            <a class="btn btn-sm btn-icon btn-soft-secondary text-gray-400" href="https://www.facebook.com/cristianvianey.cacereslabrador/" tabindex="0">
-                                <i class="fab fa-facebook-f btn-icon-inner"></i>
-                            </a>
-                        </li> -->
-
-              <li class="list-inline-item mx-0">
-                <a
-                  class="btn btn-sm btn-icon btn-soft-secondary text-gray-400"
-                  href="https://twitter.com/cristianvianey"
-                  tabindex="0"
-                >
-                  <i class="fab fa-twitter btn-icon-inner"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item mx-0">
-                <a
-                  class="btn btn-sm btn-icon btn-soft-secondary text-gray-400"
-                  href="https://www.linkedin.com/in/cristian-vianey-caceres-labrador/"
-                  tabindex="0"
-                >
-                  <i class="fab fa-linkedin-in btn-icon-inner"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item mx-0">
-                <a
-                  class="btn btn-sm btn-icon btn-soft-secondary text-gray-400"
-                  href="https://wa.me/51980675172"
-                  tabindex="0"
-                >
-                  <i class="fab fa-whatsapp btn-icon-inner"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item mx-0">
-                <a
-                  class="btn btn-sm btn-icon btn-soft-secondary text-gray-400"
-                  href="https://github.com/cristiancacereslabrador"
-                  tabindex="0"
-                >
-                  <i class="fab fa-github btn-icon-inner"></i>
-                </a>
-              </li>
-            </ul>
-            <p class="mb-0">
-              Copyright © Cristian Vianey Cáceres Labrador
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              . All rights reserved.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
+  
 
     <!-- Libs JS -->
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
@@ -1063,6 +781,7 @@
     <script src="assets/vendor/slick/slick.min.js"></script>
 
     <!-- Theme JS -->
+    <script src="script.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>

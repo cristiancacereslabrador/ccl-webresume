@@ -1,19 +1,11 @@
 /*
-Theme Name: Personite
-Description: Bootstrap Portfolio Template
-Author: Erilisdesign
-Theme URI: https://preview.erilisdesign.com/html/personite/
-Author URI: https://themeforest.net/user/erilisdesign
-Version: 1.0.0
-License: https://themeforest.net/licenses/standard
+ 
 
 SASS Stylesheet
 */
 
-
 // Mixins
 @import "mixins";
-
 
 //
 // Extended from Bootstrap
@@ -38,7 +30,6 @@ SASS Stylesheet
 @import "components/modal";
 @import "components/popover";
 
-
 //
 // Theme
 //
@@ -52,7 +43,6 @@ SASS Stylesheet
 @import "components/icon";
 @import "components/countdown";
 @import "components/overlay";
-
 
 // Utilities
 @import "utilities/background";
@@ -68,7 +58,6 @@ SASS Stylesheet
 @import "utilities/text";
 @import "utilities/z-index";
 @import "utilities/keyframes";
-
 
 // Plugins
 @import "plugins/featherlight";

@@ -1,16 +1,5 @@
-/*
-Theme Name: Personite
-Description: Bootstrap Portfolio Template
-Author: Erilisdesign
-Theme URI: https://preview.erilisdesign.com/html/personite/
-Author URI: https://themeforest.net/user/erilisdesign
-Version: 1.0.0
-License: https://themeforest.net/licenses/standard
-*/
-
 /*------------------------------------------------------
 [Table of contents]
-
 1. Loader
 2. Navigation
 3. Back to top
